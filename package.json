@@ -1,0 +1,20 @@
+{
+  "name": "weedo-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sergioluisfilho/weedo-api",
+  "author": "sergioluisfilho <sergioluisfilho@hotmail.com>",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "prod": "node src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "nodemon": "^2.0.12",
+    "uuidv4": "^6.2.11"
+  }
+}
