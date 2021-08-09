@@ -1,11 +1,12 @@
-const routes = require('express').Router();
+const routes = require("express").Router();
+const PurchaseController = require("./controller/PurchaseController");
 
 // const PurchaseController = require('./controller/PurchaseController');
 
-routes.get('/', (req, res) =>  res.json('hello, world'));
+routes.get("/", (req, res) => res.json("hello, world"));
 
-routes.post('/', async (req, res) => {
-    res.json('save product')
-}) 
+routes.post("/save", PurchaseController.SavePurchase);
+
+routes.get("/data", PurchaseController.GetPurchaseInfo);
 
 module.exports = routes;

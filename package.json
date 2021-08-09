@@ -12,8 +12,10 @@
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
+    "excel4node": "^1.7.2",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.12",
     "uuidv4": "^6.2.11"
   }
