@@ -10,7 +10,7 @@ module.exports = {
       async (err, result) => {
         if (err) return res.status(404).json(err);
         else {
-          return res.json(result);
+          return res.json({ message: "created" });
         }
       }
     );
